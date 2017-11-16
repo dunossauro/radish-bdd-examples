@@ -4,6 +4,6 @@ Feature: The calculator should be able to sum numbers
     test scenarios:
 
     Scenario: Test my calculator
-        Given I have the numbers 5.0 and 6.0
+        Given I have the numbers 5 and 6
         When I sum them
         Then I expect the result to be 11
